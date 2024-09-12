@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.field{
+    padding: 4px;
+    margin: 10px 0;
+}
+.AddBtn{
+    margin-top: 10px;
+}

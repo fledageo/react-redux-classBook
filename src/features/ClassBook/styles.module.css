@@ -1,0 +1,32 @@
+.table {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 700px;
+    margin: 0 20px;
+}
+
+tr,
+td,
+th {
+    border: 1px solid red;
+}
+
+.tableHeader th,td {
+    padding: 8px 0;
+    width: 20px;
+}
+.subjects {
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    font-size: 13px;
+}
+.student{
+    padding-left: 5px;
+}
+.marks{
+    text-align: center;
+    user-select: none;
+}
+.marks:hover{
+    background-color: rgb(196, 196, 196);
+}
